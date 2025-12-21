@@ -50,5 +50,15 @@ A medida que avance el desarrollo, se irán agregando nuevas funcionalidades y m
 - `constants.py` → Constantes globales
 - `utils.py` → Funciones auxiliares
 
+## 🎮 Vista previa
+
+<img width="1001" height="792" alt="image" src="https://github.com/user-attachments/assets/779135d8-3d06-499e-9bfa-ad2ab70f1011" />
+<img width="1008" height="802" alt="image" src="https://github.com/user-attachments/assets/b650c040-6c0d-44bb-bb0f-3f10f0308194" />
+<img width="1004" height="802" alt="image" src="https://github.com/user-attachments/assets/175fe25f-39c5-40d9-82e1-5f4257526671" />
+<img width="1011" height="792" alt="image" src="https://github.com/user-attachments/assets/390acac5-9553-4360-a501-32272384fed0" />
+<img width="1011" height="797" alt="image" src="https://github.com/user-attachments/assets/56e1b00a-971d-467e-8202-168685a69386" />
+<img width="1012" height="790" alt="image" src="https://github.com/user-attachments/assets/d8a1856d-d7a9-479e-b801-5248565bbbac" />
+
+
 ```bash
 python main.py
