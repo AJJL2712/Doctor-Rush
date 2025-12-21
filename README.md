@@ -38,5 +38,17 @@ A medida que avance el desarrollo, se irán agregando nuevas funcionalidades y m
 2. Clonar o descargar el repositorio.
 3. Ejecutar el archivo principal desde la terminal:
 
+## 📂 Estructura del proyecto
+
+- `main.py` → Punto de entrada del juego
+- `character.py` → Lógica del personaje principal
+- `patient_manager.py` → Gestión de pacientes
+- `questions.py` → Sistema de preguntas del juego
+- `game_states.py` → Control de estados del juego
+- `assets_loader.py` → Carga de recursos
+- `ui_config.py` → Configuración de la interfaz
+- `constants.py` → Constantes globales
+- `utils.py` → Funciones auxiliares
+
 ```bash
 python main.py
