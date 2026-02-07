@@ -112,4 +112,3 @@ def load_all_animations():
         "yellow": animations_yellow,
         "orange": animations_orange
     }
-
