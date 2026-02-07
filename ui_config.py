@@ -81,4 +81,3 @@ TIME_COLOR_ORANGE = (255, 165, 0)  # Naranja cuando queda poco tiempo
 TIME_COLOR_RED = (255, 0, 0)  # Rojo cuando queda muy poco tiempo
 TIME_WARNING_THRESHOLD = 3  # Segundos para cambiar a rojo
 TIME_ORANGE_THRESHOLD_DIVISOR = 2000  # Divisor para calcular umbral naranja
-
