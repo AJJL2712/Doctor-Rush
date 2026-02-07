@@ -1,64 +1,136 @@
-# Juego en Python (En desarrollo)
+# 🩺 Doctor Rush
 
-Juego desarrollado en Python como proyecto personal/académico.  
-Actualmente el proyecto se encuentra **en desarrollo (aprox. 50% completado)** y forma parte de mi proceso de aprendizaje en programación.
+**Doctor Rush** es un juego educativo médico desarrollado en **Python con Pygame**, que combina acción y aprendizaje a través de dos modos de juego: un modo arcade dinámico y un modo educativo basado en **casos clínicos reales**.
 
-## 🎮 Descripción general
+El proyecto está orientado a estudiantes de medicina y profesionales de la salud, integrando entretenimiento con el refuerzo de conceptos médicos fundamentales.
 
-El juego está siendo construido utilizando Python y se enfoca en reforzar conceptos de lógica de programación, control de flujo y estructura de proyectos.  
-A medida que avance el desarrollo, se irán agregando nuevas funcionalidades y mejoras.
+---
 
-## 🛠️ Estado del proyecto
+## 🎮 Modos de Juego
 
-🔧 **En desarrollo**
+### 🏃 Doctor Rush (Modo Acción)
+- Movimiento del personaje con **WASD**
+- Atención de pacientes según nivel de urgencia
+- Sistema de preguntas médicas cronometradas
+- Sistema de vidas y puntuación
+- 3 niveles progresivos + modo infinito
 
-### Funcionalidades implementadas
-- Lógica base del juego
-- Controles principales
-- Estructura general del proyecto
+**Niveles de urgencia**
+- 🟢 Verde
+- 🟡 Amarillo
+- 🟠 Naranja
 
-### Funcionalidades pendientes
-- Mejoras en la jugabilidad
-- Sistema de puntuación / niveles *(si aplica)*
-- Optimización del código
-- Pantalla final del juego
+---
 
-*(La lista puede cambiar conforme avance el desarrollo)*
+### 🧠 Caso Clínico (Modo Educativo)
+- Lectura completa del caso clínico
+- Selección de pruebas médicas
+- Diagnóstico
+- Tratamiento
+- Evaluación basada en decisiones clínicas
 
-## 🧠 Conceptos aplicados
+Incluye **13 casos clínicos** inspirados en escenarios médicos reales.
 
-- Estructuras de control (`if`, `while`, `for`)
-- Manejo de variables y funciones
-- Lógica de juego
-- Organización básica de un proyecto en Python
+---
 
-## ▶️ Ejecución del juego
+## ⭐ Características Principales
 
-1. Tener Python 3 instalado.
-2. Clonar o descargar el repositorio.
-3. Ejecutar el archivo principal desde la terminal:
+- Juego educativo con enfoque médico  
+- Sistema de progresión por niveles  
+- Música de fondo y efectos de sonido  
+- Guardado automático de estadísticas en formato JSON  
+- Interfaz redimensionable  
+- Más de **60 preguntas médicas**  
 
-## 📂 Estructura del proyecto
+---
 
-- `main.py` → Punto de entrada del juego
-- `character.py` → Lógica del personaje principal
-- `patient_manager.py` → Gestión de pacientes
-- `questions.py` → Sistema de preguntas del juego
-- `game_states.py` → Control de estados del juego
-- `assets_loader.py` → Carga de recursos
-- `ui_config.py` → Configuración de la interfaz
-- `constants.py` → Constantes globales
-- `utils.py` → Funciones auxiliares
+## 🏗️ Estructura del Proyecto
+
+doctor_rush/
+│
+├── main.py # Punto de entrada del juego
+│
+├── core/ # Lógica principal del juego
+│ ├── game_states.py # Control de estados y pantallas
+│ ├── character.py # Clases de jugador y pacientes
+│ ├── patient_manager.py # Gestión de pacientes
+│
+├── systems/ # Sistemas del juego
+│ ├── questions.py # Preguntas médicas
+│ ├── clinical_cases.py # Casos clínicos
+│ ├── sound_manager.py # Gestión de audio
+│ ├── user_manager.py # Usuarios y estadísticas
+│
+├── config/ # Configuración general
+│ ├── constants.py # Constantes globales
+│ ├── ui_config.py # Configuración de interfaz
+│
+├── utils.py # Funciones auxiliares
+├── stats.json # Datos persistentes de jugadores
+│
+└── assets/ # Recursos del juego
+├── sounds/ # Archivos de audio
+└── image/
+├── backgrounds/ # Fondos
+└── character/
+├── player/ # Sprites del jugador
+└── patients_level/
+├── green/
+├── yellow/
+└── orange/
+
+
+
+---
+
+## 🔊 Sistema de Audio
+
+**Música de fondo**
+- Música global
+- Tema para Doctor Rush
+- Tema para Caso Clínico
+
+**Efectos de sonido**
+- Navegación de menú
+- Respuestas correctas e incorrectas
+- Eventos del juego (niveles, diagnósticos, victoria)
+
+---
+
+## 📊 Sistema de Estadísticas
+
+Los datos se almacenan automáticamente en `stats.json`:
+
+- Nombre del jugador  
+- Mejores puntuaciones  
+- Historial de partidas  
+- Tiempo total de juego  
+- Número de partidas jugadas  
+
+---
+
+## 🚀 Instalación y Ejecución
+
+### Requisitos
+- Python **3.7 o superior**
+- Pygame **2.0 o superior**
 
 ## 🎮 Vista previa
+Ingreso del jugador:
+<img width="808" height="637" alt="image" src="https://github.com/user-attachments/assets/826b044a-0376-4103-95a0-86aee9905439" />
+Menú:
+<img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/67b6983e-5364-4d9d-9c5b-4f0e2f239a73" />
+Doctor Rush:
+<img width="810" height="640" alt="image" src="https://github.com/user-attachments/assets/ee72a9e8-427b-4f87-ab97-b321af90250b" />
+Caso clínico:
+<img width="808" height="641" alt="image" src="https://github.com/user-attachments/assets/ca04106f-3274-4d9c-ad5e-560fd1923ba6" />
+Estadísticas:
+<img width="808" height="642" alt="image" src="https://github.com/user-attachments/assets/05eef49a-7042-4ffc-94e5-b5e1016046d0" />
 
-<img width="1001" height="792" alt="image" src="https://github.com/user-attachments/assets/779135d8-3d06-499e-9bfa-ad2ab70f1011" />
-<img width="1008" height="802" alt="image" src="https://github.com/user-attachments/assets/b650c040-6c0d-44bb-bb0f-3f10f0308194" />
-<img width="1004" height="802" alt="image" src="https://github.com/user-attachments/assets/175fe25f-39c5-40d9-82e1-5f4257526671" />
-<img width="1011" height="792" alt="image" src="https://github.com/user-attachments/assets/390acac5-9553-4360-a501-32272384fed0" />
-<img width="1011" height="797" alt="image" src="https://github.com/user-attachments/assets/56e1b00a-971d-467e-8202-168685a69386" />
-<img width="1012" height="790" alt="image" src="https://github.com/user-attachments/assets/d8a1856d-d7a9-479e-b801-5248565bbbac" />
-
-
+### Instalación
 ```bash
-python main.py
+pip install pygame
+
+
+
+
