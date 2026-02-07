@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Jugador1",
+    "doctor_rush_score": 180,
+    "clinical_case_score": 0,
+    "total_play_time": 21,
+    "last_played": "2026-02-03T18:17:49.796699",
+    "games_played": 2,
+    "score_history": [
+      {
+        "game": "doctor_rush",
+        "score": 180,
+        "date": "2026-02-03T18:17:28.254499",
+        "patients_cured": 18
+      }
+    ]
+  }
+]
