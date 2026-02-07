@@ -80,32 +80,18 @@ doctor_rush/
 └── orange/
 
 
+---
+
+## 🔊 Audio
+- Música de fondo por modo de juego
+- Efectos de sonido para navegación y eventos
+- Volumen configurable desde constantes
 
 ---
 
-## 🔊 Sistema de Audio
-
-**Música de fondo**
-- Música global
-- Tema para Doctor Rush
-- Tema para Caso Clínico
-
-**Efectos de sonido**
-- Navegación de menú
-- Respuestas correctas e incorrectas
-- Eventos del juego (niveles, diagnósticos, victoria)
-
----
-
-## 📊 Sistema de Estadísticas
-
-Los datos se almacenan automáticamente en `stats.json`:
-
-- Nombre del jugador  
-- Mejores puntuaciones  
-- Historial de partidas  
-- Tiempo total de juego  
-- Número de partidas jugadas  
+## 📊 Estadísticas
+- Guardado automático en `stats.json`
+- Registro de puntuaciones, historial y tiempo de juego
 
 ---
 
@@ -115,22 +101,19 @@ Los datos se almacenan automáticamente en `stats.json`:
 - Python **3.7 o superior**
 - Pygame **2.0 o superior**
 
-## 🎮 Vista previa
-Ingreso del jugador:
-<img width="808" height="637" alt="image" src="https://github.com/user-attachments/assets/826b044a-0376-4103-95a0-86aee9905439" />
-Menú:
-<img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/67b6983e-5364-4d9d-9c5b-4f0e2f239a73" />
-Doctor Rush:
-<img width="810" height="640" alt="image" src="https://github.com/user-attachments/assets/ee72a9e8-427b-4f87-ab97-b321af90250b" />
-Caso clínico:
-<img width="808" height="641" alt="image" src="https://github.com/user-attachments/assets/ca04106f-3274-4d9c-ad5e-560fd1923ba6" />
-Estadísticas:
-<img width="808" height="642" alt="image" src="https://github.com/user-attachments/assets/05eef49a-7042-4ffc-94e5-b5e1016046d0" />
+🎮 Vista previa
+Ingreso del jugador
+<img width="808" height="637" alt="Ingreso del jugador" src="https://github.com/user-attachments/assets/826b044a-0376-4103-95a0-86aee9905439" />
+Menú principal
+<img width="806" height="636" alt="Menú principal" src="https://github.com/user-attachments/assets/67b6983e-5364-4d9d-9c5b-4f0e2f239a73" />
+Modo Doctor Rush
+<img width="810" height="640" alt="Modo Doctor Rush" src="https://github.com/user-attachments/assets/ee72a9e8-427b-4f87-ab97-b321af90250b" />
+Modo Caso Clínico
+<img width="808" height="641" alt="Modo Caso Clínico" src="https://github.com/user-attachments/assets/ca04106f-3274-4d9c-ad5e-560fd1923ba6" />
+Estadísticas
+<img width="808" height="642" alt="Estadísticas" src="https://github.com/user-attachments/assets/05eef49a-7042-4ffc-94e5-b5e1016046d0" />
 
 ### Instalación
 ```bash
 pip install pygame
-
-
-
 
