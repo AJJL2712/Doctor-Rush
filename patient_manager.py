@@ -96,4 +96,3 @@ def create_patients(scenario_level, animations_green, animations_yellow, animati
             patient_levels.append("green")
 
     return list_patients, patient_levels
-
