@@ -46,39 +46,40 @@ Incluye **13 casos clínicos** inspirados en escenarios médicos reales.
 
 ## 🏗️ Estructura del Proyecto
 
+## 🏗️ Estructura del Proyecto
+
 doctor_rush/
 │
-├── main.py # Punto de entrada del juego
+├── main.py                  # Punto de entrada del juego
 │
-├── core/ # Lógica principal del juego
-│ ├── game_states.py # Control de estados y pantallas
-│ ├── character.py # Clases de jugador y pacientes
-│ ├── patient_manager.py # Gestión de pacientes
+├── core/                    # Lógica principal del juego
+│   ├── game_states.py       # Control de estados y pantallas
+│   ├── character.py         # Clases de jugador y pacientes
+│   ├── patient_manager.py  # Gestión de pacientes
 │
-├── systems/ # Sistemas del juego
-│ ├── questions.py # Preguntas médicas
-│ ├── clinical_cases.py # Casos clínicos
-│ ├── sound_manager.py # Gestión de audio
-│ ├── user_manager.py # Usuarios y estadísticas
+├── systems/                 # Sistemas del juego
+│   ├── questions.py         # Preguntas médicas
+│   ├── clinical_cases.py   # Casos clínicos
+│   ├── sound_manager.py    # Gestión de audio
+│   ├── user_manager.py     # Usuarios y estadísticas
 │
-├── config/ # Configuración general
-│ ├── constants.py # Constantes globales
-│ ├── ui_config.py # Configuración de interfaz
+├── config/                  # Configuración general
+│   ├── constants.py         # Constantes globales
+│   ├── ui_config.py         # Configuración de interfaz
 │
-├── utils.py # Funciones auxiliares
-├── stats.json # Datos persistentes de jugadores
+├── utils.py                 # Funciones auxiliares
+├── stats.json               # Datos persistentes
 │
-└── assets/ # Recursos del juego
-├── sounds/ # Archivos de audio
-└── image/
-├── backgrounds/ # Fondos
-└── character/
-├── player/ # Sprites del jugador
-└── patients_level/
-├── green/
-├── yellow/
-└── orange/
-
+└── assets/                  # Recursos del juego
+    ├── sounds/
+    └── image/
+        ├── backgrounds/
+        └── character/
+            ├── player/
+            └── patients_level/
+                ├── green/
+                ├── yellow/
+                └── orange/
 
 ---
 
@@ -101,17 +102,31 @@ doctor_rush/
 - Python **3.7 o superior**
 - Pygame **2.0 o superior**
 
-🎮 Vista previa
-Ingreso del jugador
-<img width="808" height="637" alt="Ingreso del jugador" src="https://github.com/user-attachments/assets/826b044a-0376-4103-95a0-86aee9905439" />
-Menú principal
-<img width="806" height="636" alt="Menú principal" src="https://github.com/user-attachments/assets/67b6983e-5364-4d9d-9c5b-4f0e2f239a73" />
-Modo Doctor Rush
-<img width="810" height="640" alt="Modo Doctor Rush" src="https://github.com/user-attachments/assets/ee72a9e8-427b-4f87-ab97-b321af90250b" />
-Modo Caso Clínico
-<img width="808" height="641" alt="Modo Caso Clínico" src="https://github.com/user-attachments/assets/ca04106f-3274-4d9c-ad5e-560fd1923ba6" />
-Estadísticas
-<img width="808" height="642" alt="Estadísticas" src="https://github.com/user-attachments/assets/05eef49a-7042-4ffc-94e5-b5e1016046d0" />
+## 🎮 Vista previa
+
+### 🧑‍⚕️ Ingreso del jugador
+![Ingreso del jugador](https://github.com/user-attachments/assets/826b044a-0376-4103-95a0-86aee9905439)
+
+---
+
+### 📋 Menú principal
+![Menú principal](https://github.com/user-attachments/assets/67b6983e-5364-4d9d-9c5b-4f0e2f239a73)
+
+---
+
+### 🏃 Modo Doctor Rush
+![Modo Doctor Rush](https://github.com/user-attachments/assets/ee72a9e8-427b-4f87-ab97-b321af90250b)
+
+---
+
+### 🧠 Modo Caso Clínico
+![Modo Caso Clínico](https://github.com/user-attachments/assets/ca04106f-3274-4d9c-ad5e-560fd1923ba6)
+
+---
+
+### 📊 Estadísticas
+![Estadísticas](https://github.com/user-attachments/assets/05eef49a-7042-4ffc-94e5-b5e1016046d0)
+
 
 ### Instalación
 ```bash
