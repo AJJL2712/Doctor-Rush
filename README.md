@@ -46,6 +46,7 @@ Incluye **13 casos clínicos** inspirados en escenarios médicos reales.
 
 ## 🏗️ Estructura del Proyecto
 
+
 doctor_rush/
 │
 ├── main.py                  # Punto de entrada del juego
