@@ -79,7 +79,7 @@ doctor_rush/
                 ├── green/
                 ├── yellow/
                 └── orange/
-
+```
 
 ---
 
@@ -131,4 +131,3 @@ doctor_rush/
 ### Instalación
 ```bash
 pip install pygame
-
